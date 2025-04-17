@@ -1,0 +1,41 @@
+{
+	"name": "frontend",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"preview": "vite preview",
+		"test": "vitest run",
+		"test:watch": "vitest watch",
+		"test:coverage": "vitest run --coverage",
+		"biome:check": "biome check ./src",
+		"biome:fix": "biome check --write ./src",
+		"biome:format": "npx biome format ./src --write",
+		"biome:lint": "npx biome lint ./src",
+		"ts:check": "tsc --noEmit",
+		"lint": "biome check ./src && tsc --noEmit"
+	},
+	"dependencies": {
+		"i18next": "^24.2.3",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-i18next": "^15.4.1",
+		"react-router-dom": "^7.4.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@testing-library/jest-dom": "^6.6.3",
+		"@testing-library/react": "^16.3.0",
+		"@types/node": "^22.13.14",
+		"@types/react": "^19.0.10",
+		"@types/react-dom": "^19.0.4",
+		"@vitejs/plugin-react": "^4.3.4",
+		"@vitest/coverage-v8": "^3.1.1",
+		"jsdom": "^26.0.0",
+		"typescript": "~5.7.2",
+		"vite": "^6.2.0",
+		"vitest": "^3.1.1"
+	}
+}

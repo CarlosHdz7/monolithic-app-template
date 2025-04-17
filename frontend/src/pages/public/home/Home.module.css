@@ -1,0 +1,8 @@
+.form {
+	width: 100%;
+	color: var(--color-text-primary);
+}
+
+.login-button {
+	margin-right: 12px;
+}

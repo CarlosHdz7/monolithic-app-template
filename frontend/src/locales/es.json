@@ -1,0 +1,18 @@
+{
+	"navbar": {
+		"home": "Inicio",
+		"about": "Acerca de",
+		"login": "Entrar",
+		"signup": "Registrarse"
+	},
+	"pages": {
+		"home": {
+			"welcome": "Bienvenido a nuestra App",
+			"description": "Este es un ejemplo simple de un componente React que utiliza módulos TypeScript y CSS."
+		},
+		"about": {
+			"welcome": "Acerca de Nosotros",
+			"description": "Este es un ejemplo simple de un componente React que utiliza módulos TypeScript y CSS."
+		}
+	}
+}
