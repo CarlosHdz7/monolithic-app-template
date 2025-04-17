@@ -5,6 +5,7 @@ This repository is a modern **monolithic fullstack application**, combining fron
 ---
 
 ## 📁 Project Structure
+```
 📁 template
 ├── 📁 .vscode
 ├── 📁 backend
@@ -34,6 +35,7 @@ This repository is a modern **monolithic fullstack application**, combining fron
 ├── biome.json
 ├── README.md
 └── tsconfig.json
+```
 
 🌍 Internationalization (i18n)
 
