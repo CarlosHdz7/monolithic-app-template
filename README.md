@@ -41,11 +41,13 @@ This repository is a modern **monolithic fullstack application**, combining fron
 
 We use i18next to support multiple languages. Translation files are stored in the locales folder using the following structure:
 
+```
 /locales
   ├── en/
   │   └── translation.json
   └── es/
       └── translation.json
+```
 
 ✅ Testing with Vitest
 
